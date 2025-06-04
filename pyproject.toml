@@ -1,0 +1,22 @@
+[project]
+name = "lycragw"
+version = "0.1.0"
+description = "Read and display for the lycra gravitational wave demonstrator"
+authors = [
+    {name = "Nicolas Le Bihan"}
+]
+readme = "README.md"
+requires-python = ">=3.10.5"
+dependencies = [
+    "pip (>=25.1.1,<26.0.0)",
+    "pyqt5 (>=5.15.11,<6.0.0)",
+    "pyqtgraph (>=0.13.7,<0.14.0)",
+    "pyserial (>=3.5,<4.0)",
+    "matplotlib (>=3.10.3,<4.0.0)",
+    "bitstring (>=4.3.1,<5.0.0)"
+]
+
+
+[build-system]
+requires = ["poetry-core>=2.0.0,<3.0.0"]
+build-backend = "poetry.core.masonry.api"
